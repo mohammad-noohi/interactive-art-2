@@ -1,0 +1,53 @@
+.comment {
+  flex-basis: 20rem;
+  min-height: 18rem;
+  background-color: #fff;
+  color: #000;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-content {
+  text-align: left;
+  padding: 1.2rem;
+}
+
+.comment__body {
+  font-family: "Times Roman Italic";
+  color: #7e8085;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.comment-info {
+  display: flex;
+  border-top: 1px solid #e8ebef;
+  padding: 0.8rem 1.2rem;
+  align-items: center;
+}
+.comment__img {
+  display: block;
+  margin-right: 0.8rem;
+}
+
+.comment__person {
+}
+
+/* responsive component */
+
+@media screen and (max-width: 992px) {
+  .comment {
+    width: 20rem;
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .comment {
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
